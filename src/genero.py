@@ -1,6 +1,6 @@
 import wikipedia
 
-bandas = ["Unlucky Morpheus", "Angra", "Turisas", "Wind Rose", "Dark Moor"]
+# bandas = ["Unlucky Morpheus", "Angra", "Turisas", "Wind Rose", "Dark Moor"]
 
 def getGenero(descricao: [str]) -> str :
     for i, v in enumerate(descricao):
@@ -17,6 +17,5 @@ def procura(banda: str) -> [str] :
         except :
             return [" ", "Metal"]
 
-for banda in bandas :
-    genero = getGenero(procura(banda))
-    print(banda + " - " + genero)
+def main(banda: str) :
+    return getGenero(procura(banda))

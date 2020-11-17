@@ -1,3 +1,3 @@
-# MetalZap
+# QualGenro
 
-Bot que recomenda musicas e bandas de Metal em grupos de Whatsapp.
+API que responde qual o genero de uma banda de Metal
